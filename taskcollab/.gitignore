@@ -1,0 +1,32 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you use npm for any frontend dependencies)
+node_modules/
+
+# Composer dependencies (if you use Composer later)
+vendor/
+
+# Environment files
+.env
+*.env
+
+# Log files
+*.log
+
+# IDE / Editor settings
+.vscode/
+*.code-workspace
+.idea/
+
+# OS-generated files
+*.swp
+*.swo
+
+# Database dumps (optional, if you want to exclude)
+db_dump.sql
+
+# Cache or session files
+cache/
+sessions/
